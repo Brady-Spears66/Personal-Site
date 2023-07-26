@@ -48,9 +48,8 @@ p.title {
 }
 
 .bigImage {
-    width:600px;
+    width:100%;
     border-radius: 50%;
-    padding: 15px;
 }
 
 .bodySection {
@@ -59,8 +58,11 @@ p.title {
     
 }
 
-.sectionHeader {
-    font-size: 50px;
+.homeHeader {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    margin-bottom:5px;
 }
 
 .menu {
@@ -112,7 +114,7 @@ p {
 }
 
 .skillIcon {
-    width:100px;
+    width:50%;
 }
 
 .smallVertPad {
@@ -145,4 +147,8 @@ p {
 
 .jobImage {
     width: 100%;
+}
+
+p.smallText {
+    font-size: 25%;
 }
