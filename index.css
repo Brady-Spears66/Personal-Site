@@ -1,12 +1,15 @@
 * {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Times New Roman', Times, serif
 }
 
 .header {
     
     padding-top: 10px;
-    background-color: rgb(52, 65, 82);
     text-align: center;
+}
+
+.headerColor {
+    background-color: rgb(48, 58, 73);
 }
 
 p.title {
@@ -15,10 +18,9 @@ p.title {
 }
 
 .contactInfo {
-    border-bottom-style: solid;
-    border-bottom-color:darkgoldenrod;
-    font-size:20px;
+    
     color: white;
+    font-size: 20px;
 }
 
 #title {
@@ -27,6 +29,7 @@ p.title {
     padding-top: -30px;
     text-align: center;
     margin-bottom: -18px;
+    
 }
 
 #menuOption {
@@ -42,8 +45,12 @@ p.title {
 #menuOption:hover {
     background-color: goldenrod;
     color: black;
-    
+}
 
+.bigImage {
+    width:600px;
+    border-radius: 50%;
+    padding: 15px;
 }
 
 .bodySection {
@@ -61,7 +68,81 @@ p.title {
     padding-bottom:10px;
 }
 
-.bodyColor {
-    background-color:rgb(140, 180, 178);
+
+#whiteTrans {
+    border-top-width:2px;
+    border-top-style:solid;
+    border-top-color: goldenrod;
+    
+
 }
 
+.bodyColor {
+    background-color: rgb(196, 184, 184);
+}
+
+.footer {
+    text-align:center;
+    color: rgb(0, 0, 0);
+    font-weight:bolder;
+    font-size: 20px;
+    border-top-width:1px;
+    border-top-style:solid;
+    border-top-color:goldenrod
+}
+
+p {
+    font-size: 20px;
+}
+
+.center {
+    text-align:center;
+}
+
+.left {
+    text-align:left;
+}
+
+.right {
+    text-align:right;
+}
+
+.underline {
+    text-decoration:underline;
+}
+
+.skillIcon {
+    width:100px;
+}
+
+.smallVertPad {
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.medVertPad {
+    margin-bottom:10px;
+}
+
+.bottomBorder {
+    border-bottom-color:black;
+    border-bottom-width:2px;
+    border-bottom-style: solid;
+}
+
+.leftMarg {
+    margin-left:3px;
+}
+
+.rightMarg {
+    margin-right: 3px;
+}
+
+
+.bigPad {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.jobImage {
+    width: 100%;
+}
