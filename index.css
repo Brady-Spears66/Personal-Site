@@ -62,6 +62,7 @@
     border-bottom-style: solid;
     border-bottom-color: black;
     margin-bottom:5px;
+    font-size: 3vw;
 }
 
 .menu {
@@ -145,7 +146,7 @@ p {
 }
 
 .jobImage {
-    width: 100%;
+    height: 17vw;
 }
 
 .bioText {
@@ -157,4 +158,85 @@ p {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: -20px;
+}
+
+.experienceFont {
+    font-size: 1vw;
+}
+
+.sectionHeader {
+    font-size:3vw;
+    padding-bottom: 2.5%;
+}
+
+.jobSectionTop {
+    border-top-width:1px;
+    border-top-style: solid;
+    border-top-color: black;
+    padding-top: 2%;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+    padding-bottom: 2%;
+}
+
+.jobSectionBottom {
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Optional: Remove default left padding for the list */
+  }
+
+  li {
+    position: relative; /* Set the position of the list item as relative */
+    padding-left: 2em; /* Add left padding for the entire list item */
+    line-height: 1.5; /* Adjust line height for better spacing */
+  }
+
+  li::before {
+    content: "- "; /* Add the dash using the content property */
+    position: absolute; /* Set the position of the dash as absolute */
+    left: 0; /* Position the dash at the leftmost side of the list item */
+  }
+
+.leftAlign {
+    text-align: left;
+}
+
+.skillText {
+    font-size: 1.8vw;
+}
+
+.skillSubHead {
+    font-size: 3vw;
+}
+
+.skillHeader {
+    font-size: 4vw;
+}
+
+.projectTitle {
+    font-size: 2vw;
+}
+
+.recipediaImage {
+    width: 28vw;
+}
+
+.jobTitle {
+    font-size: 1.5vw;
+}
+
+.miamiLogo {
+    width: 15vw;
+}
+
+.miamiFont {
+    font-size: 2vw;
 }
