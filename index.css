@@ -12,15 +12,15 @@
     background-color: rgb(48, 58, 73);
 }
 
-p.title {
-    color:white;
-    font-size:75px;
+.title {
+    color:rgb(255, 255, 255);
+    font-size:6vw;
 }
 
 .contactInfo {
     
     color: white;
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 #title {
@@ -28,7 +28,6 @@ p.title {
     text-decoration:white;
     padding-top: -30px;
     text-align: center;
-    margin-bottom: -18px;
     
 }
 
@@ -38,7 +37,7 @@ p.title {
     border-color:white;
     border-width: 1px;
     border-style: solid;
-    font-size: 20px;
+    font-size: 2vw;
    
 }
 
@@ -149,6 +148,13 @@ p {
     width: 100%;
 }
 
-p.smallText {
-    font-size: 25%;
+.bioText {
+    font-size: 1.8vw;
+}
+
+.bioSecondRow {
+    text-align:center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: -20px;
 }
