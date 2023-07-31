@@ -53,7 +53,7 @@
 
 .bodySection {
     text-align:center;
-    padding:30px;
+    padding:5%;
     
 }
 
@@ -87,7 +87,7 @@
     text-align:center;
     color: rgb(0, 0, 0);
     font-weight:bolder;
-    font-size: 20px;
+    font-size: 1.6vw;
     border-top-width:1px;
     border-top-style:solid;
     border-top-color:goldenrod
@@ -118,11 +118,12 @@ p {
 }
 
 .smallVertPad {
-    padding-top:5px;
-    padding-bottom:5px;
+    padding-top:1%;
+    padding-bottom:1%;
 }
 .medVertPad {
-    margin-bottom:10px;
+    padding-top: 2%;
+    padding-bottom:2%;
 }
 
 .bottomBorder {
@@ -141,8 +142,8 @@ p {
 
 
 .bigPad {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 .jobImage {
@@ -169,23 +170,20 @@ p {
     padding-bottom: 2.5%;
 }
 
-.jobSectionTop {
-    border-top-width:1px;
-    border-top-style: solid;
-    border-top-color: black;
-    padding-top: 2%;
-    border-bottom-width:1px;
-    border-bottom-style:solid;
-    border-bottom-color:black;
+.jobSection{
     padding-bottom: 2%;
+    margin-left: 1%;
+    margin-right:1%;
 }
 
 .jobSectionBottom {
-    border-bottom-width:1px;
-    border-bottom-style:solid;
-    border-bottom-color:black;
     padding-top:2%;
-    padding-bottom: 2%;
+    padding-bottom:2%;
+    margin-left:1%;
+    margin-right:1%;
+    border-top-width:1px;
+    border-top-style: solid;
+    border-top-color: black;
 }
 
 ul {
@@ -238,5 +236,31 @@ ul {
 }
 
 .miamiFont {
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
+
+.leftBorder {
+    border-left-style:solid;
+    border-left-width:1px;
+    border-left-color: black;
+}
+
+.bottomMarg {
+    margin-bottom: 1%;
+}
+
+.pageHeader {
+    font-size: 3vw;
+    font-weight: bold;
+    margin-bottom: 5%;
+    
+}
+
+.engineeringImage {
+    width: 18vw;
+}
+
+.entreImage {
+    width: 30vw;
+}
+
