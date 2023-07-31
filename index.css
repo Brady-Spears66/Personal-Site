@@ -12,15 +12,15 @@
     background-color: rgb(48, 58, 73);
 }
 
-p.title {
-    color:white;
-    font-size:75px;
+.title {
+    color:rgb(255, 255, 255);
+    font-size:6vw;
 }
 
 .contactInfo {
     
     color: white;
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 #title {
@@ -28,7 +28,6 @@ p.title {
     text-decoration:white;
     padding-top: -30px;
     text-align: center;
-    margin-bottom: -18px;
     
 }
 
@@ -38,7 +37,7 @@ p.title {
     border-color:white;
     border-width: 1px;
     border-style: solid;
-    font-size: 20px;
+    font-size: 2vw;
    
 }
 
@@ -48,19 +47,22 @@ p.title {
 }
 
 .bigImage {
-    width:600px;
+    width:100%;
     border-radius: 50%;
-    padding: 15px;
 }
 
 .bodySection {
     text-align:center;
-    padding:30px;
+    padding:5%;
     
 }
 
-.sectionHeader {
-    font-size: 50px;
+.homeHeader {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    margin-bottom:5px;
+    font-size: 3vw;
 }
 
 .menu {
@@ -85,7 +87,7 @@ p.title {
     text-align:center;
     color: rgb(0, 0, 0);
     font-weight:bolder;
-    font-size: 20px;
+    font-size: 1.6vw;
     border-top-width:1px;
     border-top-style:solid;
     border-top-color:goldenrod
@@ -112,15 +114,16 @@ p {
 }
 
 .skillIcon {
-    width:100px;
+    width:50%;
 }
 
 .smallVertPad {
-    padding-top:5px;
-    padding-bottom:5px;
+    padding-top:1%;
+    padding-bottom:1%;
 }
 .medVertPad {
-    margin-bottom:10px;
+    padding-top: 2%;
+    padding-bottom:2%;
 }
 
 .bottomBorder {
@@ -139,10 +142,129 @@ p {
 
 
 .bigPad {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 .jobImage {
-    width: 100%;
+    height: 17vw;
 }
+
+.bioText {
+    font-size: 1.8vw;
+}
+
+.bioSecondRow {
+    text-align:center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: -20px;
+}
+
+.experienceFont {
+    font-size: 1vw;
+}
+
+.sectionHeader {
+    font-size:3vw;
+    padding-bottom: 2.5%;
+}
+
+.jobSection{
+    padding-bottom: 2%;
+    margin-left: 1%;
+    margin-right:1%;
+}
+
+.jobSectionBottom {
+    padding-top:2%;
+    padding-bottom:2%;
+    margin-left:1%;
+    margin-right:1%;
+    border-top-width:1px;
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Optional: Remove default left padding for the list */
+  }
+
+  li {
+    position: relative; /* Set the position of the list item as relative */
+    padding-left: 2em; /* Add left padding for the entire list item */
+    line-height: 1.5; /* Adjust line height for better spacing */
+  }
+
+  li::before {
+    content: "- "; /* Add the dash using the content property */
+    position: absolute; /* Set the position of the dash as absolute */
+    left: 0; /* Position the dash at the leftmost side of the list item */
+  }
+
+.leftAlign {
+    text-align: left;
+}
+
+.skillText {
+    font-size: 1.8vw;
+}
+
+.skillSubHead {
+    font-size: 3vw;
+}
+
+.skillHeader {
+    font-size: 4vw;
+}
+
+.projectTitle {
+    font-size: 2vw;
+}
+
+.recipediaImage {
+    width: 28vw;
+}
+
+.jobTitle {
+    font-size: 1.5vw;
+}
+
+.miamiLogo {
+    width: 15vw;
+}
+
+.miamiFont {
+    font-size: 2.5vw;
+}
+
+.leftBorder {
+    border-left-style:solid;
+    border-left-width:1px;
+    border-left-color: black;
+}
+
+.bottomMarg {
+    margin-bottom: 1%;
+}
+
+.pageHeader {
+    font-size: 3vw;
+    font-weight: bold;
+    margin-bottom: 5%;
+    
+}
+
+.engineeringImage {
+    width: 18vw;
+}
+
+.entreImage {
+    width: 30vw;
+}
+
+.topPad {
+    padding-top: 5%;
+}
+
