@@ -42,7 +42,7 @@
 }
 
 #menuOption:hover {
-    background-color: goldenrod;
+    background-color: rgb(141, 141, 141);
     color: black;
 }
 
@@ -74,7 +74,7 @@
 #whiteTrans {
     border-top-width:2px;
     border-top-style:solid;
-    border-top-color: goldenrod;
+    border-top-color: rgb(156, 156, 156);
     
 
 }
@@ -90,7 +90,7 @@
     font-size: 1.6vw;
     border-top-width:1px;
     border-top-style:solid;
-    border-top-color:goldenrod
+    border-top-color:rgb(141, 141, 141)
 }
 
 p {
